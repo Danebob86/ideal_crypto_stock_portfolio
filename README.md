@@ -51,15 +51,30 @@ ________________________________________________________________________________
 
 
 
-## Questions & Data
+## Prerequisites
 
-* To find our data we used the yfinance library to retrieve the historical price data from the selected cryptocurrencies and stock indeces. 
+
+* To find our data we used the yfinance library to retrieve the historical price data from the selected cryptocurrencies and stock indeces. Import the following libraries before continuing.
 
 
 * Import yfinance
   ```
   import yfinance as yf
   ```
+  * Import dash
+  ``` 
+  import dash
+  ```
+  * Import pandas
+  ```
+  import pandas as pd
+  ```
+  * Import interact
+  ```
+  from panel.interact import interact
+  ```
+  
+  
   
   ## Data Cleaning
   
@@ -179,42 +194,15 @@ ________________________________________________________________________________
 
 
 
-
-
 ## Conclusion
+
+
 
 
 ![conclusion](https://github.com/Danebob86/team1_project1/blob/brock_data/team1_gifs/Conclusion.gif)
 
 
 
-
-
-
-
-## Libraries Used
-
-### Prerequisites
-
-Make sure to install the following libraries and packages before proceeding.
-
-* Import yfinance
-  ```
-  import yfinance as yf
-  ```
-  
-* Import dash
-``` 
-import dash
-```
-* Import pandas
-```
-import pandas as pd
-```
-* Import interact
-```
-from panel.interact import interact
-```
 
 
 ### Tools Used
