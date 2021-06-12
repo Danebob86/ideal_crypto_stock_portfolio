@@ -2,6 +2,9 @@
 
 
 
+### As cryptocurrency becomes more mainstream and investors and institutions allocate more of their money, it becomes even more important to understand the risks of investing in crypto long term. Our risk calculator and custom portfolio analysis allows you to select a list of assets, select your preferred investment amount, investment time period, and adjusted-risk level. Using this technique, retail traders or crypto analyst can easily run a simulation and portfolio analysis over the stocks or digital assets they choose based on their selected portfolio weight preference. See below: 
+
+
 
 
 ![dashboard](https://github.com/Danebob86/team1_project1/blob/brock_data/team1_gifs/Retirement.gif)
@@ -13,11 +16,6 @@
 
 
 
-![Team_gif](https://github.com/Danebob86/team1_project1/blob/brock_data/team1_gifs/Team_Member.gif)
-
-
-
-
 * [Jon Iadonisi](https://github.com/Jfrog242)
 * [Fai Kongchai](https://github.com/jkongchai)
 * [Daniel Faulks](https://github.com/Danebob86)
@@ -25,9 +23,13 @@
 
 
 
-### As cryptocurrency becomes more mainstream and investors and institutions allocate more of their money, it becomes even more important to understand the risks of investing in crypto long term. Our risk calculator and custom portfolio analysis allows you to compare the risk and return of a diversified portfolio with cryptocurrency and stock assets. Using this technique, retail traders or crypto analyst can easily run a simulation and portfolio analysis over the stocks or digital assets they choose.
+
+![Team_gif](https://github.com/Danebob86/team1_project1/blob/brock_data/team1_gifs/Team_Member.gif)
 
 
+
+
+________________________________________________________________________________________________
 
 
 
@@ -62,6 +64,12 @@
   ## Data Cleaning
   
   * We cleaned the data by getting the prices from yfinance API, and using Pandas library to drop null values and sort the index by datetime. While cleaning the data, we noticed that most of the cryptos had null values due to them being around 2-3 years old. Some insights when getting the data were the correlation between the price changes going back to 5 years. Many cryptocurrencies have related price action. 
+
+
+
+
+_______________________________________________________________________________________
+
 
 
 
@@ -163,6 +171,11 @@ ________________________________________________________________________________
 
 
 ![create_portfolio](https://github.com/Danebob86/team1_project1/blob/brock_data/team1_gifs/Create%20Your%20Portfolio.gif)
+
+
+
+________________________________________________________________________________________
+
 
 
 
