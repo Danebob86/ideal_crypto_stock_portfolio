@@ -1,6 +1,5 @@
 # Custom portfolio Risk / Return Calculator
 
-### About The Project
 
 
 
@@ -43,7 +42,7 @@
 
 * To find our data we used the yfinance library to retrieve the historical price data from the selected cryptocurrencies and stock indeces. 
 
-![ticker_grab](     "Input Picture Here"    )
+![library-gif]()
 
 * Import yfinance
   ```
@@ -52,12 +51,12 @@
   
   ## Data Cleaning
   
-#### We cleaned the data by getting the prices from yfinance API, and using Pandas library to drop null values and sort the index by datetime. While cleaning the data, we noticed that most of the cryptos had null values due to them being around 2-3 years old. Some insights when getting the data were the correlation between the price changes going back to 5 years. Many cryptocurrencies have related price action. 
+  * We cleaned the data by getting the prices from yfinance API, and using Pandas library to drop null values and sort the index by datetime. While cleaning the data, we noticed that most of the cryptos had null values due to them being around 2-3 years old. Some insights when getting the data were the correlation between the price changes going back to 5 years. Many cryptocurrencies have related price action. 
+  
+  
+  
 
-  * Discuss any problems that arose after exploring the data, and how you resolved them.
-  * Present and discuss interesting figures developed during exploration, ideally with the help of Jupyter Notebook.
-  
-  
+  [drop_values](2021-06-08_19.47.08.gif) 
 
 
 
@@ -79,7 +78,7 @@
 
 
 
-![heatmap](Screen%20Shot%202021-06-07%20at%204.52.35%20PM.png)
+![heatmap]()
 
 
 #### According to the heatmap above, our findings resulted in showing the correlation between the crypto and stock assets. You can see that a majority of crypto assets seem to be closely correlated, while the stock indeces are no where near correlation with the crypto assets.
