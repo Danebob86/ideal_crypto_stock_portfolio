@@ -7,7 +7,7 @@
 
 
 
-![dashboard](https://github.com/Danebob86/ideal_crypto_stock_portfolio/tree/master/dashboard_gifs/Retirement.gif)
+![dashboard](/Danebob86/ideal_crypto_stock_portfolio/blob/master/dashboard_gifs/Retirement.gif)
 
 
 
